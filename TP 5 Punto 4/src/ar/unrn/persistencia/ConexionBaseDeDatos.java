@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConexionBaseDeDatos {
-	public static Connection getConection()  {
+	public static Connection getConection() {
 
 		Connection conexion = null;
 		Properties propiedades = new Properties();
@@ -25,7 +25,6 @@ public class ConexionBaseDeDatos {
 			Class.forName(propiedades.getProperty("CONTROLADOR"));
 			conexion = DriverManager.getConnection(propiedades.getProperty("URL"), propiedades.getProperty("USUARIO"),
 					propiedades.getProperty("CONTRASEÑA"));
-
 
 		} catch (ClassNotFoundException e) {
 			throw new RuntimeException(e);

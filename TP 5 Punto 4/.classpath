@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="src/libreria/okhttp-4.9.1.jar"/>
 	<classpathentry kind="lib" path="src/libreria/okio-2.8.0.jar"/>
 	<classpathentry kind="lib" path="src/libreria/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="lib" path="src/libreria/json-20180813.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
